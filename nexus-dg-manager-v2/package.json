@@ -1,0 +1,17 @@
+{
+  "name": "nexus-dg-manager-v2",
+  "version": "2.0.0",
+  "description": "Sistema para gerenciamento de DGs da guild Nexus",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
